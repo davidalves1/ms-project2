@@ -1,0 +1,258 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	border:0;
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	list-style:none;
+}
+#tudo{
+	width:1000px;
+	height:auto;
+	margin:0 auto;
+	background:#FCF;
+}
+#topo{
+	float:left;
+	width:1000px;
+	height:auto;
+	margin-bottom:20px;
+}
+#logo{
+	float:left;
+	margin:15px;
+}
+#pesquisa{
+	float:right;
+	width:600px;
+	height:150px;
+	background:url(../imagens/bg_topo_pesquisa.png);
+	box-shadow: -10px 3px 20px #0076a3;
+	-webkit-box-shadow: -10px 3px 20px #888;
+	-moz-box-shadow: -10px 3px 20px #888;
+}
+#campo-pesquisa{
+	float:left;
+	width:auto;
+	height:auto;
+	margin-left:330px;
+}
+#borda-pesquisa{
+	float:left;
+	width:46px;
+	height:150px;
+	background:url(../imagens/borda_pesquisa_topo.png);
+	margin:0 -46px;
+}
+#pesquisa h2{
+	font-family:"HandelGothic BT", Helvetica, "Segoe UI Light", sans-serif;
+	font-size:34px;
+	color:white;
+	padding:25px 50px;
+}
+
+#campo-pesquisa label{
+	float:left;
+	padding:5px;
+}
+#campo-pesquisa input, bt{
+	width:130px;
+	height:auto;
+	font-family:"Segoe UI Light", Tahoma, Calibri, Verdana;
+	font-size:16px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	color:#999999;
+	padding:5px 10px;
+}
+#campo-pesquisa .bt{
+	background:none;
+	width:75px;
+	color:#eee;
+}
+#campo-pesquisa .bt:hover{
+	background:#003399;
+}
+#menu-topo{
+	float:right;
+	width:600px;
+	height:75px;
+	background:url(../imagens/bg_topo_menu.png);
+	margin-top:20px;
+	box-shadow: -10px 3px 20px #0076a3;
+	-webkit-box-shadow: -10px 3px 20px #888;
+	-moz-box-shadow: -10px 3px 20px #888;
+}
+#borda-menu-topo{
+	float:left;
+	margin:0 -46px;
+}
+#menu-topo li{
+	float:left;
+	margin:20px 0;
+	padding-left:5px;
+}
+#menu-topo li a{
+	color:#eee;
+	font-family:"Segoe UI Light", Tahoma, Calibri, Verdana;
+	font-size:24px;
+	padding:15px;
+	margin:20px 15px;		
+}
+#menu-topo li a:hover{
+	color:#bbb;
+}
+#esquerda{
+	float:left;
+	width:660px;
+	height:auto;
+	text-align:center;
+}
+#esquerda h2{
+	font:22px "Segoe UI";
+}
+#esquerda h3{
+	font:20px "Segoe UI", Calibri, Tahoma, sans-serif;
+	text-align:justify;
+}
+#esquerda p{
+	font-family:"Segoe UI Light", Tahoma, Calibri, Verdana;
+	font-size:16px;
+	padding:10px 15px;
+	text-align:justify;
+}
+#lista{
+	text-align:justify;
+	list-style:circle;
+}
+/* ..:: Slides JqFancy Transitions ::..*/
+
+#slideshow a{
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	color: #FFF; 
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:16px;
+	padding:3px 3px;
+	background-color:#232323;
+	font-style:italic;
+	text-decoration: none;
+}
+.ft-title{      /*Altera a legenda no Slide*/
+	color: #FFF; 
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	padding:10px 10px;
+	background-color:#232323;
+	font-style:italic;
+	text-decoration: none;
+	width: 460px;
+}
+/* ..:: Fim ::..*/
+
+/* -- Formulário de Contato -- */
+#form-contato{
+	float:left;
+	width:370px;
+	height:auto;
+	font-family:"Segoe UI Light", Tahoma, Calibri, Verdana;
+	margin:20px 0px;
+}
+#form-contato label{
+	float:left;
+	width:100%;
+	margin:5px 0;
+}
+#form-contato input, bt, #form-contato textarea{
+	float:right;
+	font-size:14px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	padding:5px
+}
+#form-contato input, #form-contato textarea{
+	width:260px;
+	border:solid 1px #3366CC;
+}
+#form-contato .bt{
+	float:right;
+	width:80px;
+	padding:5px 10px;
+	margin:10px 15px;
+	border:none;
+	background:#06C;
+	color:#eee;	
+}
+#form-contato .bt:hover{
+	background:#03C;
+}
+#form-contato textarea{
+	height:80px;
+	font-family:Calibri,"Segoe UI Light", Tahoma, Verdana;
+	font-size:14px;
+}
+/* -- Fim -- */
+
+/* -- Localização --*/
+#localiza{
+	float:left;
+	width:auto;
+	height:auto;
+	padding:10px;
+	margin:10px 0;
+}
+/* -- Fim --*/
+#direita{
+	float:left;
+	width:320px;
+	height:auto;
+	margin-left:20px;
+	text-align:justify;
+}
+#direita h2{
+	font-family:"Segoe UI Light", Calibri, sans-serif;
+	font-size:34px;
+	color:#3E4095;
+}
+#noticias{
+	float:left;
+	width:100%;
+	height:auto;
+}
+#social{
+	float:left;
+	width:100%;
+	height:auto;
+	padding:5px;
+}
+#rodape{
+	float:left;
+	width:100%;
+	height:auto;
+	margin:20px 0;
+}
+#menu-baixo{
+	float:left;
+	width:100%;
+	height:50px;
+	border-top:#96989A solid 2px;
+}
+#menu-baixo li{
+	float:left;
+	padding:10px;
+	padding-left:45px;
+	
+}
+#menu-baixo li a{
+	color:#eee;
+	font-family:"Segoe UI Light", Tahoma, Calibri, Verdana;
+	font-size:20px;
+	padding:10px 25px;
+	margin:5px;
+	color:#444;
+}
+#menu-baixo li a:hover{
+	color:#A0A0A4;
+}
+

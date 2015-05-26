@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	border:0;
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	list-style:none;
+}
+#tudo{
+	width:1000px;
+	height:100%;
+	margin:0 auto;
+	background:#FCF;
+}
+#topo{
+	float:left;
+	width:1000px;
+	height:100%;
+	margin-bottom:20px;
+}
+#logo{
+	float:left;
+	margin:15px;
+}
+#pesquisa{
+	float:right;
+	width:600px;
+	height:150px;
+	background:url(../imagens/bg_topo_pesquisa.png);
+	box-shadow: -10px 3px 20px #0076a3;
+	-webkit-box-shadow: -10px 3px 20px #888;
+	-moz-box-shadow: -10px 3px 20px #888;
+}
+#borda-pesquisa{
+	float:left;
+	width:46px;
+	height:150px;
+	background:url(../imagens/borda_pesquisa_topo.png);
+	margin:0 -46px;
+}
+#pesquisa h2{
+	font-family:"HandelGothic BT", Helvetica, "Segoe UI Light", sans-serif;
+	font-size:34px;
+	color:white;
+	padding:15px 50px;
+}
+#menu-topo{
+	float:right;
+	width:600px;
+	height:75px;
+	background:url(../imagens/bg_topo_menu.png);
+	margin-top:40px;
+	box-shadow: -10px 3px 20px #0076a3;
+	-webkit-box-shadow: -10px 3px 20px #888;
+	-moz-box-shadow: -10px 3px 20px #888;
+}
+#borda-menu-topo{
+	float:left;
+	margin:0 -46px;
+}
+#menu-topo li{
+	float:left;
+	margin:20px 0;
+	padding-left:5px;
+}
+#menu-topo li a{
+	color:#eee;
+	font-family:"Segoe UI Light", Tahoma, Calibri, Verdana;
+	font-size:24px;
+	padding:15px;
+	margin:20px 15px;		
+}
+#menu-topo li a:hover{
+	color:#bbb;
+}
+#esquerda{
+	float:left;
+	width:660px;
+	height:740px;
+	/*background:#EDEEF7;*/
+}
+#esquerda p{
+	font-family:"Segoe UI Light", Tahoma, Calibri, Verdana;
+	font-size:16px;
+	padding:10px 15px;
+}
+#direita{
+	float:left;
+	width:320px;
+	height:1000px;
+	margin-left:20px;
+	text-align:justify;
+}
+#direita h2{
+	font-family:"Segoe UI Light", Calibri, sans-serif;
+	font-size:34px;
+	color:#3E4095;
+}
+#noticias{
+	float:left;
+	width:100%;
+	height:840px;
+}
+#social{
+	float:left;
+	width:100%;
+	height:60px;;
+	padding:5px;
+}
+#rodape{
+	float:left;
+	width:100%;
+	height:100%;
+	background:#0F5;
+	margin-top:20px;
+}
+#menu-baixo{
+	float:left;
+	width:100%;
+	height:100px;
+	border-top:#96989A solid 1px;
+}
+	
+

@@ -1,0 +1,70 @@
+At the beggining you will need to download jQuery and jqFancyTransitions and include them on your page similar like this :
+
+1<script src="js/jquery.js" type="text/javascript"></script>
+2<script src="js/jqFancyTransitions.js" type="text/javascript"></script>
+
+After that you will need some placeholder with some images for your slideshow. Text from alt tag will be used in title bar in your slideshow.
+
+1<div id='slideshowHolder'>
+2 <img src='img1.jpg' alt='img1' />
+3 <img src='img2.jpg' alt='img2' />
+4 <img src='img3.jpg' alt='img3' />
+5</div>
+
+When you set everything time is to call jqFancyTransition and tell him where to do his job. You will probably need to set width and height for your gallery. That can be done with next code:
+
+1<script>
+2$(document).ready( function(){
+3    $('#slideshowHolder').jqFancyTransitions({ width: 400, height: 300 });
+4});
+5</script>
+
+The code above is enough to made your fancy transitions gallery 400px wide and 300px high. If you want you can change transition effect with one of predefined values:
+
+wave
+zipper
+curtain
+
+Of course, you can made custom effect with set of options that you can use to set speed, number of strips, direction, type of effect, etc. Bellow is list of all parameters and their values that you can use.
+
+effect: '', // wave, zipper, curtain
+width: 500, // width of panel
+height: 332, // height of panel
+strips: 20, // number of strips
+delay: 5000, // delay between images in ms
+stripDelay: 50, // delay beetwen strips in ms
+titleOpacity: 0.7, // opacity of title
+titleSpeed: 1000, // speed of title appereance in ms
+position: 'alternate', // top, bottom, alternate, curtain
+direction: 'fountainAlternate', // left, right, alternate, random, fountain, fountainAlternate
+navigation: false, // prev and next navigation buttons
+links: false // show images as links
+
+You can try to change those options and see what kind of effect you will get. Basically, you can change position and direction parameters and you will see variety of jqFancyTransitions effects. Also you can check examples and documentation page where you can see few examples with photos made by my friends Goran Jovanovic, Igor Srdanovic, Ivan Jekic and Marko Manojlovic who is also design layout for that page.
+
+IMAGES AS URLS
+
+Since 1.7 version images can be urls. All you have to do is to add url below images. Similar to this:
+
+1<div id='slideshowHolder'>
+2 <img src='img1.jpg' alt='img1' />
+3 <a href ='http://workshop.rs'/></a>
+4 <img src='img2.jpg' alt='img2' />
+5 <a href ='http://workshop.rs/projects/jqbargraph'></a>
+6 <img src='img3.jpg' alt='img3' />
+7 <a href ='http://workshop.rs/projects/moobargraph'></a>
+8</div>
+
+After that just add links: true in call.
+
+Changelog
+
+- 1.5
+navigation
+
+- 1.7
+images can be urls
+
+- 1.8
+class for active navigation number ( ft-button-IDOFHOLDER-active )
+description bar is not part of ‘navigation’ option

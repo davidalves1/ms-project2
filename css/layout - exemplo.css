@@ -1,0 +1,168 @@
+﻿*{
+	margin:0;
+	border:0;
+	text-decoration:none;
+	list-style:none;
+	padding:0;
+}
+#tudo{
+	width:1000px;
+	height:auto;
+	margin:0 auto;	
+}
+body{
+	font-family:"Segoe UI Light", Tahoma, Geneva, Verdana, sans-serif;	
+}
+#topo{
+	width:1000px;
+	height:auto;
+	float:left;
+}
+#logos{
+	width:1000px;
+	height:auto;
+	float:left;
+}
+#logos h2{
+	color:#CCC;
+	font-size:30px;
+	float:right;
+	padding-top:30px;
+}
+#logo{
+	margin:40px 0;
+	float:left;
+}
+#topmenu{
+	width:985px;
+	height:50px;
+	float:left;
+	padding-left:15px;
+	background:#0F4385 url('../imagens/bg_menu.png');
+}
+#topmenu li{
+	float:left;
+	margin-top:7px	
+}
+#topmenu li a{
+	color:#EEE;
+	font-size:22px;
+	padding:10px 10px;
+	margin:0 15px
+}
+#topmenu li a:hover{
+	color:#F90;
+}
+#topbanner{
+	width:1000px;
+	height:160px;
+	float:left;
+	background:url('../imagens/img_top_banner.png') no-repeat right;
+	margin:20px 0;
+	border-bottom:1px solid;
+}
+#topbanner h1{
+	color:#0066CC;
+	font-size:41px;
+	line-height:100%;
+	padding-bottom:5px;
+}
+#topbanner p{
+	color:#5A5A59;
+	font-size:20px;
+	line-height:105%
+}
+#esquerda{
+	width:730px;
+	height:500px;
+	background:#FF9900;
+	float:left;
+}
+#direita{
+	width:250px;
+	height:500px;
+	float:left;
+	margin-left:20px;
+}
+#direita h2{
+	font-weight:bolder;
+	margin-bottom:5px;
+}
+#social{
+	width:100%;
+	float:left;
+	height:auto;
+}
+#social li{	
+	float:left;
+}
+#social li a{
+	width:55px;
+	height:50px;	
+	float:left;
+}
+
+/* Configura os ícones de compartilhamento */
+#twitter{
+	background:url('../imagens/twitter.png');
+}
+#twitter a:hover{
+	background:url('../imagens/twitter_hover.png')
+}
+#facebook{
+	background:url('../imagens/facebook.png');
+	margin:0 10px;
+}
+#facebook a:hover{
+	background:url('../imagens/facebook_hover.png')
+}
+#orkut{
+	background:url('../imagens/orkut.png');
+	margin-right:10px;
+}
+#orkut a:hover{
+	background:url('../imagens/orkut_hover.png')
+}
+#feed{
+	background:url('../imagens/feed.png');
+}
+#feed a:hover{
+	background:url('../imagens/feed_hover.png')
+}
+/* - - - - - - - - -*/
+
+#rodape{
+	width:1000px;
+	height:auto;
+	float:left;
+	margin-top:20px;
+}
+#bottommenu{
+	width:980px;
+	height:auto;
+	float:left;
+	padding-left:20px;
+}
+#bottommenu li{
+	float:left;
+}
+#bottommenu li a{
+	color:#474747;
+	font-size:14px;
+	padding:5px 10px;
+	margin:0 9px;
+}
+#bottommenu li a:hover{
+	color:#06C;
+}
+
+#rodape p{
+	color:#474747;
+	font-size:14px;
+	float:left;
+	margin:25px 0;
+}
+#rodape img{
+	float:right;
+	margin-top:23px;	
+}
